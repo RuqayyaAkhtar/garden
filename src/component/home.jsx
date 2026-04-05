@@ -41,6 +41,8 @@ const Home = () => {
             <p>
               we use natural flexible and stable ceramic pots that are naturally
               flexible and stable in production
+              we use natural flexible and stable ceramic pots that are naturally
+              flexible and stable in production
             </p>
             <Button className="button">check more products</Button>
           </div>
