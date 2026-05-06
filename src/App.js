@@ -3,13 +3,14 @@ import React from 'react';
 import Home from './component/home';
 import Nav from './component/Nav';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom';
+// import { HashRouter as Router } from 'react-router-dom';
 const App = () => {
   return (
     <BrowserRouter>
-      <Nav />
-      <Home />
-  
+    <Nav />
+    <Routes>
+    <Route path="/" element={<Home />} />
+  </Routes>
     </BrowserRouter>
   );
 };
